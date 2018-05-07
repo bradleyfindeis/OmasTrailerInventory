@@ -22,7 +22,7 @@ class Locations extends Component {
           <Grid centered>
             <Grid.Row columns={5}>
           { locations.map( locations => 
-          <Grid.Column>
+          <Grid.Column padding="vertical">
             <Card key={locations.id}>
               <Card.Content header={locations.name} />
               <Card.Content description={locations.description} />
