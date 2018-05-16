@@ -1,5 +1,5 @@
 10.times do
-  Location.create(
+  location = Location.create(
     name: Faker::Space.galaxy,
     description: Faker::Hipster.sentence,
   )

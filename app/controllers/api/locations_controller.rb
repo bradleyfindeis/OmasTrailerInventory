@@ -28,7 +28,7 @@ class Api::LocationsController < ApplicationController
   end
 
   def destroy
-    @location.destroy
+    Location.find(params[:id]).destroy
   end
 
 

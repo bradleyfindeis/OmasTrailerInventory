@@ -7,7 +7,7 @@ import Flash from './Flash';
 import Home from './Home';
 import Items from './Items';
 import Locations from './Locations';
-import ProtectedRoute from './ProtectedRoute';
+// import ProtectedRoute from './ProtectedRoute';
 import AuthRoute from './AuthRoute';
 import FetchUser from './FetchUser';
 import { Switch, Route } from 'react-router-dom';
